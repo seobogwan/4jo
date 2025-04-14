@@ -29,4 +29,18 @@ const diary = {
 
 window.addEventListener("DOMContentLoaded", function() {
     diary.init();
+
+    frmRegist.addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        // 필수 항목 검증
+        const requiredFields = {
+
+        };
+
+        
+        // 등록 완료시 스케줄 선택으로 이동
+        location.href='index.html';
+
+    });
 });
