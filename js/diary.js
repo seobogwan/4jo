@@ -24,6 +24,7 @@ const diary = {
     remove(seq) {
 
     }  
+
 }
 
 window.addEventListener("DOMContentLoaded", function() {
