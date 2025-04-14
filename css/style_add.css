@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* { 
+    font-family: "Noto Sans", sans-serif;  
+}
+html {
+    font-size: 13px;
+    background: #f8f8f8;
+}
+
+  body {
+    padding-bottom: 100px;
+  }
+  svg {
+    position: relative;
+    top: -1px;
+  }
+  .container {
+    max-width: 1000px;
+    min-width: 550px;
+  }
+  #dairy-content {
+    height: 300px;
+    border-radius: 5px;
+  }
+
+  
