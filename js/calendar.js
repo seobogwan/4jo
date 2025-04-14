@@ -16,7 +16,7 @@ const calendar = {
     },
     save(){
         
-    }
+    },
     // 달력 일자
     getRange(year, month) {
         if (!year || !month) {
