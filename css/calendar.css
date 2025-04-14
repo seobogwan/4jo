@@ -102,6 +102,10 @@ h1 {
     color: #d6a7b2;
 }
 
+h3 {
+  margin-top: 20px; 
+    }
+
 /*등록*/
 .btn-pink {
     display: flex;
