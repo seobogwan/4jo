@@ -16,7 +16,7 @@ const calendar = {
     },
     save(){
         
-    }
+    },
     // 달력 일자
     getRange(year, month) {
         if (!year || !month) {
@@ -24,6 +24,7 @@ const calendar = {
             year = year ?? today.getFullYear(); 
             month = month ?? today.getMonth() + 1;
         }
+    
         
         /** 
         * 1) 매1일의 요일

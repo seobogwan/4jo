@@ -40,9 +40,11 @@ svg {
 
 .calendar-nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
     margin-bottom: 5px;
+    font-size: 18px;
 }
 
 .yoil {
