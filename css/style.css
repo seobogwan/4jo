@@ -32,33 +32,35 @@ svg {
 .calendar-container{
     width: 700px;
     margin: 30px auto;
-    border: 1px solid #ccc;
+    border: 1px solid #ff8da6;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .calendar-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .yoil {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(7, 1fr);
     font-weight: bold;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
     padding-bottom: 5px;
+    
   }
 
 .day {
     padding: 5px;
 }
 
-ul li {
+.dates {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-gap: 5px;
-  }
+    cursor: pointer;
+}
