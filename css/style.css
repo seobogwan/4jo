@@ -11,6 +11,9 @@ svg {
 #calendar-dates {
     display: flex;
     flex-wrap: wrap;
+    padding-right: 10px;
+
+    list-style: none;
 }
 
 #calendar-dates > li {
@@ -29,13 +32,14 @@ svg {
     color: blue;
 }
 
-.calendar-container{
+.calendar-container {
     width: 700px;
     margin: 30px auto;
-    border: 1px solid #ff8da6;
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ffb3c1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    background-color: #fff0f5;
 }
 
 .calendar-nav {
@@ -54,15 +58,44 @@ svg {
     font-weight: bold;
     border-bottom: 1px solid #000000;
     padding-bottom: 5px;
+    list-style-type: none;  
     
-  }
+}
+
+.yoil li {
+    color: #000000;
+    padding-left: 10px;
+}
 
 .day {
     padding: 5px;
 }
 
-.dates {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    cursor: pointer;
+#calendar-dates label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    transition: background-color 0.2s;
+}
+
+#calendar-dates label:hover {
+    background-color: #ffe5ec;
+    border-radius: 50%;
+}
+
+.nav-btn {
+    background-color: #fcc3ce;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: #faa7b8;
 }
